@@ -198,7 +198,7 @@ a:active { color: black; }
     border-color: grey;
 }
 
-#contact{
+#contact, #portfolio{
     border: 10px 10px;
     border-style: solid;
     border-color: grey;
@@ -239,4 +239,34 @@ margin-top: 30px;
 
 #form div{
     margin-bottom: 15px;
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project {
+    margin: 10px;
+    width: calc( 50% - 20px );
+    height: auto;
+    position: relative;
+}
+
+.project h4 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    background: teal;
+    color: white;
+    font-weight: normal;
+}
+
+.project img {
+    display: block;
+    width: 100%;
+    margin:0;
 }
